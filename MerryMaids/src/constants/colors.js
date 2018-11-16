@@ -1,0 +1,10 @@
+const COLORS = {
+	WHITE: '#FFFFFF',
+	APP_COLOR : '#7AC043',
+	BORDER_COLOR : '#D5D5D5',
+	TEXT_INPUT_LABLE_COLOR: '#95989A',
+	TEXT_COLOR : '#889EA8',
+	RED:'red',
+	BLACK : '#000000'
+}
+export default COLORS;

@@ -1,0 +1,37 @@
+{
+  "name": "MerryMaids",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "react": "16.3.1",
+    "react-native": "0.55.3",
+    "react-native-elements": "^0.19.1",
+    "react-native-indicators": "^0.13.0",
+    "react-native-iphone-x-helper": "^1.2.0",
+    "react-native-keyboard-aware-scroll-view": "^0.7.4",
+    "react-native-keyboard-manager": "^4.0.13-10",
+    "react-native-modal": "^7.0.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-snackbar-dialog-options": "0.0.5",
+    "react-native-vector-icons": "^6.0.2",
+    "react-navigation": "^2.18.2",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

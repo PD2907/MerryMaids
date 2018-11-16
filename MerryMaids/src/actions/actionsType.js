@@ -1,0 +1,5 @@
+const ACTION_TYPES = {
+    USER_NAME_CHANGED: 'USER_NAME',
+    LOGIN_USER_RES:'LOGIN_USER_RES'
+}
+export default ACTION_TYPES

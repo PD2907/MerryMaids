@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21810FF860BE6300B7E059228C31BC33 /* Pods-MerryMaidsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D32CCFC82D3B22A07786E645F703B767 /* Pods-MerryMaidsTests-dummy.m */; };
+		2478E34EEF4F69D68778CD68B8876DD7 /* Pods-MerryMaids-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4406652FBD1A168C3E225DCD7A55 /* Pods-MerryMaids-tvOSTests-dummy.m */; };
+		2FD86BD42385FCF49143098601026011 /* Pods-MerryMaids-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467229BA5B4805A60ABC102937C939CB /* Pods-MerryMaids-tvOS-dummy.m */; };
+		CC96D53BC99C7705E728D369250C0D8D /* Pods-MerryMaids-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBB9D5A6279F8ADC6D4C283F6DB3680 /* Pods-MerryMaids-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F9850243BCED3FC34319120F25918E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A04D095742A9ADBFD2829AC6ACC88B3D;
+			remoteInfo = "Pods-MerryMaids";
+		};
+		CF2EB0F913FE379804B13E8725226407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A04D095742A9ADBFD2829AC6ACC88B3D;
+			remoteInfo = "Pods-MerryMaids";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BABBD2237D4C6A8F31EA6251399C60 /* libPods-MerryMaids.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MerryMaids.a"; path = "libPods-MerryMaids.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13048353DAABD4E656FE63EA5F6B2CD7 /* Pods-MerryMaids-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaids-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		1A58EE54B95E85BA86D29E2761E9E2A0 /* Pods-MerryMaids-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerryMaids-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		225F717545CB8673C188F5487B4E43AB /* Pods-MerryMaids-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaids-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4014FF300EFD349448AFC73F7AD797EB /* Pods-MerryMaids-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerryMaids-acknowledgements.plist"; sourceTree = "<group>"; };
+		43F2FC544B160A3854F397398E2539ED /* Pods-MerryMaids-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaids-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		4502A6F49946CD29B51EA9C0EC0B2A7E /* Pods-MerryMaids-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerryMaids-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		467229BA5B4805A60ABC102937C939CB /* Pods-MerryMaids-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MerryMaids-tvOS-dummy.m"; sourceTree = "<group>"; };
+		49401BAF30D3EFBA87F23E13B8E13175 /* Pods-MerryMaidsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MerryMaidsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6100247AECD94E837D9CE64BEE22C2DB /* libPods-MerryMaidsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MerryMaidsTests.a"; path = "libPods-MerryMaidsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE2B83E2E51BAF59B81E5435C5D4863 /* Pods-MerryMaids-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MerryMaids-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78DD10B74ABAAC0604A8E7EE9FF67A32 /* Pods-MerryMaids.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaids.release.xcconfig"; sourceTree = "<group>"; };
+		7A38802E4E2BBDC8FDC5CA13997E9542 /* Pods-MerryMaidsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaidsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8119AAB3CCBAC57C6A684169A3066436 /* libPods-MerryMaids-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MerryMaids-tvOSTests.a"; path = "libPods-MerryMaids-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DE8DEB49C86D1C015239476F4998E4 /* Pods-MerryMaidsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaidsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EAD92A33E6E1D677C1ECDB99F5E07E6 /* Pods-MerryMaids.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaids.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DDA48195DD20A81701745FE5D4E6D4 /* Pods-MerryMaids-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaids-tvOS-resources.sh"; sourceTree = "<group>"; };
+		983BE3932ED85E922E3E3C8DCB3ECA42 /* Pods-MerryMaids-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaids-frameworks.sh"; sourceTree = "<group>"; };
+		9989980A453E9874441CBE0156C28CAB /* Pods-MerryMaids-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaids-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		AF7D0B6384D048E841DCE17B2C181F5D /* Pods-MerryMaids-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaids-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFBB9D5A6279F8ADC6D4C283F6DB3680 /* Pods-MerryMaids-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MerryMaids-dummy.m"; sourceTree = "<group>"; };
+		B57ACDB3904655017B4A4C4ADE1D0926 /* Pods-MerryMaidsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MerryMaidsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8A18C59D0616AC1E7C1E502C2ABA3F0 /* Pods-MerryMaidsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaidsTests-resources.sh"; sourceTree = "<group>"; };
+		BBDA98CD5358A243E6F5D5B4430329D8 /* Pods-MerryMaids-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaids-resources.sh"; sourceTree = "<group>"; };
+		BD9970D34995058B135EE874E685E9DA /* Pods-MerryMaids-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MerryMaids-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2656E46AC6F09246D6C7EB918960E8E /* Pods-MerryMaids-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaids-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		D2BC79779E50920E8355D5C34724B5C4 /* libPods-MerryMaids-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MerryMaids-tvOS.a"; path = "libPods-MerryMaids-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32CCFC82D3B22A07786E645F703B767 /* Pods-MerryMaidsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MerryMaidsTests-dummy.m"; sourceTree = "<group>"; };
+		E48413B031C0A530C955EDFC68DD1286 /* Pods-MerryMaids-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MerryMaids-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAC2547A5D16671423F513EB7AD30514 /* Pods-MerryMaids-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MerryMaids-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF4F4406652FBD1A168C3E225DCD7A55 /* Pods-MerryMaids-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MerryMaids-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		F5D22DAB43756F2E5B8CA1470CAEB3E2 /* Pods-MerryMaidsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MerryMaidsTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CEE37533CD8D2052FC93DBD720B1D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74978F2C4A7184E6D7F9DAC60C577B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89816A801EE25C60835F8A3BBBF3DAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F7E1CC4756FE63136C70B8441F3F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33D302D3A0AA67D92FB671BA7B279487 /* Pods-MerryMaids-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2B83E2E51BAF59B81E5435C5D4863 /* Pods-MerryMaids-tvOS-acknowledgements.markdown */,
+				1A58EE54B95E85BA86D29E2761E9E2A0 /* Pods-MerryMaids-tvOS-acknowledgements.plist */,
+				467229BA5B4805A60ABC102937C939CB /* Pods-MerryMaids-tvOS-dummy.m */,
+				13048353DAABD4E656FE63EA5F6B2CD7 /* Pods-MerryMaids-tvOS-frameworks.sh */,
+				94DDA48195DD20A81701745FE5D4E6D4 /* Pods-MerryMaids-tvOS-resources.sh */,
+				225F717545CB8673C188F5487B4E43AB /* Pods-MerryMaids-tvOS.debug.xcconfig */,
+				43F2FC544B160A3854F397398E2539ED /* Pods-MerryMaids-tvOS.release.xcconfig */,
+			);
+			name = "Pods-MerryMaids-tvOS";
+			path = "Target Support Files/Pods-MerryMaids-tvOS";
+			sourceTree = "<group>";
+		};
+		3420C809978E8BC4B4830FB1D81E3D65 /* Pods-MerryMaids */ = {
+			isa = PBXGroup;
+			children = (
+				EAC2547A5D16671423F513EB7AD30514 /* Pods-MerryMaids-acknowledgements.markdown */,
+				4014FF300EFD349448AFC73F7AD797EB /* Pods-MerryMaids-acknowledgements.plist */,
+				AFBB9D5A6279F8ADC6D4C283F6DB3680 /* Pods-MerryMaids-dummy.m */,
+				983BE3932ED85E922E3E3C8DCB3ECA42 /* Pods-MerryMaids-frameworks.sh */,
+				BBDA98CD5358A243E6F5D5B4430329D8 /* Pods-MerryMaids-resources.sh */,
+				8EAD92A33E6E1D677C1ECDB99F5E07E6 /* Pods-MerryMaids.debug.xcconfig */,
+				78DD10B74ABAAC0604A8E7EE9FF67A32 /* Pods-MerryMaids.release.xcconfig */,
+			);
+			name = "Pods-MerryMaids";
+			path = "Target Support Files/Pods-MerryMaids";
+			sourceTree = "<group>";
+		};
+		6267D20F2663E8B38974296EAFCCFAE4 /* Pods-MerryMaids-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E48413B031C0A530C955EDFC68DD1286 /* Pods-MerryMaids-tvOSTests-acknowledgements.markdown */,
+				4502A6F49946CD29B51EA9C0EC0B2A7E /* Pods-MerryMaids-tvOSTests-acknowledgements.plist */,
+				EF4F4406652FBD1A168C3E225DCD7A55 /* Pods-MerryMaids-tvOSTests-dummy.m */,
+				9989980A453E9874441CBE0156C28CAB /* Pods-MerryMaids-tvOSTests-frameworks.sh */,
+				D2656E46AC6F09246D6C7EB918960E8E /* Pods-MerryMaids-tvOSTests-resources.sh */,
+				AF7D0B6384D048E841DCE17B2C181F5D /* Pods-MerryMaids-tvOSTests.debug.xcconfig */,
+				BD9970D34995058B135EE874E685E9DA /* Pods-MerryMaids-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-MerryMaids-tvOSTests";
+			path = "Target Support Files/Pods-MerryMaids-tvOSTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				E749A348190AB784F49FA69E93FC403C /* Products */,
+				C61072090E9113735376D973C20AD3BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C61072090E9113735376D973C20AD3BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3420C809978E8BC4B4830FB1D81E3D65 /* Pods-MerryMaids */,
+				33D302D3A0AA67D92FB671BA7B279487 /* Pods-MerryMaids-tvOS */,
+				6267D20F2663E8B38974296EAFCCFAE4 /* Pods-MerryMaids-tvOSTests */,
+				EEBA955A2FD903FB209948A3F2012834 /* Pods-MerryMaidsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E749A348190AB784F49FA69E93FC403C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02BABBD2237D4C6A8F31EA6251399C60 /* libPods-MerryMaids.a */,
+				D2BC79779E50920E8355D5C34724B5C4 /* libPods-MerryMaids-tvOS.a */,
+				8119AAB3CCBAC57C6A684169A3066436 /* libPods-MerryMaids-tvOSTests.a */,
+				6100247AECD94E837D9CE64BEE22C2DB /* libPods-MerryMaidsTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEBA955A2FD903FB209948A3F2012834 /* Pods-MerryMaidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				49401BAF30D3EFBA87F23E13B8E13175 /* Pods-MerryMaidsTests-acknowledgements.markdown */,
+				B57ACDB3904655017B4A4C4ADE1D0926 /* Pods-MerryMaidsTests-acknowledgements.plist */,
+				D32CCFC82D3B22A07786E645F703B767 /* Pods-MerryMaidsTests-dummy.m */,
+				F5D22DAB43756F2E5B8CA1470CAEB3E2 /* Pods-MerryMaidsTests-frameworks.sh */,
+				B8A18C59D0616AC1E7C1E502C2ABA3F0 /* Pods-MerryMaidsTests-resources.sh */,
+				87DE8DEB49C86D1C015239476F4998E4 /* Pods-MerryMaidsTests.debug.xcconfig */,
+				7A38802E4E2BBDC8FDC5CA13997E9542 /* Pods-MerryMaidsTests.release.xcconfig */,
+			);
+			name = "Pods-MerryMaidsTests";
+			path = "Target Support Files/Pods-MerryMaidsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04D095742A9ADBFD2829AC6ACC88B3D /* Pods-MerryMaids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E238C8642186248B1989DD800D6DA9FA /* Build configuration list for PBXNativeTarget "Pods-MerryMaids" */;
+			buildPhases = (
+				1D621D41A69B2D05836644DF376F538C /* Sources */,
+				F9F7E1CC4756FE63136C70B8441F3F43 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MerryMaids";
+			productName = "Pods-MerryMaids";
+			productReference = 02BABBD2237D4C6A8F31EA6251399C60 /* libPods-MerryMaids.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF5DA393E487C139540657AFC9EE9436 /* Pods-MerryMaidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CD90F56907E5E242A0C7A35F248C54 /* Build configuration list for PBXNativeTarget "Pods-MerryMaidsTests" */;
+			buildPhases = (
+				77E6D44EB56D0048B27928AC0196551C /* Sources */,
+				89816A801EE25C60835F8A3BBBF3DAE2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55ABB81003AB0005B504C394259AE61F /* PBXTargetDependency */,
+			);
+			name = "Pods-MerryMaidsTests";
+			productName = "Pods-MerryMaidsTests";
+			productReference = 6100247AECD94E837D9CE64BEE22C2DB /* libPods-MerryMaidsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E60BB9C73CAF100FA62E71099F29556A /* Pods-MerryMaids-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC4685DDD403806467BB1086B7DC20E /* Build configuration list for PBXNativeTarget "Pods-MerryMaids-tvOSTests" */;
+			buildPhases = (
+				64AAA99A1B9D4A6996D56AE6568CDF80 /* Sources */,
+				6CEE37533CD8D2052FC93DBD720B1D48 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B59ED84F086B351379B5B6AA1F59A51 /* PBXTargetDependency */,
+			);
+			name = "Pods-MerryMaids-tvOSTests";
+			productName = "Pods-MerryMaids-tvOSTests";
+			productReference = 8119AAB3CCBAC57C6A684169A3066436 /* libPods-MerryMaids-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E732805B429C5B39822B730F161DB630 /* Pods-MerryMaids-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE6E6B07C630251BE17815DBB934293 /* Build configuration list for PBXNativeTarget "Pods-MerryMaids-tvOS" */;
+			buildPhases = (
+				2444F4A0570EC9DA6AB4563EEBCB3A81 /* Sources */,
+				74978F2C4A7184E6D7F9DAC60C577B94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MerryMaids-tvOS";
+			productName = "Pods-MerryMaids-tvOS";
+			productReference = D2BC79779E50920E8355D5C34724B5C4 /* libPods-MerryMaids-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E749A348190AB784F49FA69E93FC403C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04D095742A9ADBFD2829AC6ACC88B3D /* Pods-MerryMaids */,
+				E732805B429C5B39822B730F161DB630 /* Pods-MerryMaids-tvOS */,
+				E60BB9C73CAF100FA62E71099F29556A /* Pods-MerryMaids-tvOSTests */,
+				CF5DA393E487C139540657AFC9EE9436 /* Pods-MerryMaidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D621D41A69B2D05836644DF376F538C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96D53BC99C7705E728D369250C0D8D /* Pods-MerryMaids-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2444F4A0570EC9DA6AB4563EEBCB3A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD86BD42385FCF49143098601026011 /* Pods-MerryMaids-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64AAA99A1B9D4A6996D56AE6568CDF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2478E34EEF4F69D68778CD68B8876DD7 /* Pods-MerryMaids-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E6D44EB56D0048B27928AC0196551C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21810FF860BE6300B7E059228C31BC33 /* Pods-MerryMaidsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B59ED84F086B351379B5B6AA1F59A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MerryMaids";
+			target = A04D095742A9ADBFD2829AC6ACC88B3D /* Pods-MerryMaids */;
+			targetProxy = 6F9850243BCED3FC34319120F25918E7 /* PBXContainerItemProxy */;
+		};
+		55ABB81003AB0005B504C394259AE61F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MerryMaids";
+			target = A04D095742A9ADBFD2829AC6ACC88B3D /* Pods-MerryMaids */;
+			targetProxy = CF2EB0F913FE379804B13E8725226407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4C6202E3797237DBF5FAA06FAB293A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAD92A33E6E1D677C1ECDB99F5E07E6 /* Pods-MerryMaids.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58456EC293A9B02CEDCDDD03A2999088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DD10B74ABAAC0604A8E7EE9FF67A32 /* Pods-MerryMaids.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D32EE10D15125BA1494DCC42119A524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225F717545CB8673C188F5487B4E43AB /* Pods-MerryMaids-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7123F00ADF1DAFA613837ED226ECCDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F2FC544B160A3854F397398E2539ED /* Pods-MerryMaids-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A59EAE6EA9598B30D33E7AA88308A005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A38802E4E2BBDC8FDC5CA13997E9542 /* Pods-MerryMaidsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF4D29A890DA7D365B1A9D6B451CA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7D0B6384D048E841DCE17B2C181F5D /* Pods-MerryMaids-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0C6356A2FA6FB2B08C7B9C90557F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9970D34995058B135EE874E685E9DA /* Pods-MerryMaids-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CA622FB1FA57E60141D629BDFDFD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DE8DEB49C86D1C015239476F4998E4 /* Pods-MerryMaidsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CD90F56907E5E242A0C7A35F248C54 /* Build configuration list for PBXNativeTarget "Pods-MerryMaidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CA622FB1FA57E60141D629BDFDFD17 /* Debug */,
+				A59EAE6EA9598B30D33E7AA88308A005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC4685DDD403806467BB1086B7DC20E /* Build configuration list for PBXNativeTarget "Pods-MerryMaids-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF4D29A890DA7D365B1A9D6B451CA55 /* Debug */,
+				CC0C6356A2FA6FB2B08C7B9C90557F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE6E6B07C630251BE17815DBB934293 /* Build configuration list for PBXNativeTarget "Pods-MerryMaids-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D32EE10D15125BA1494DCC42119A524 /* Debug */,
+				7123F00ADF1DAFA613837ED226ECCDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E238C8642186248B1989DD800D6DA9FA /* Build configuration list for PBXNativeTarget "Pods-MerryMaids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6202E3797237DBF5FAA06FAB293A60 /* Debug */,
+				58456EC293A9B02CEDCDDD03A2999088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
